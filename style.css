@@ -716,7 +716,6 @@ input[type=number]::-webkit-outer-spin-button {
     color: #90969E;
 }
 
-/* CART ROW — CLEAN RESPONSIVE VERSION */
 .loaded-div2 .cart-row {
     display: flex;
     align-items: center;
@@ -725,7 +724,6 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 3% 0;
 }
 
-/* Quantity input */
 .cart-row input[type="number"] {
     width: 3rem;
     height: 2.5rem;
@@ -735,7 +733,6 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 1rem;
 }
 
-/* Up/down buttons */
 .cart-row .qty-buttons {
     display: flex;
     flex-direction: column;
@@ -757,7 +754,6 @@ input[type=number]::-webkit-outer-spin-button {
     border-radius: 0.2rem;
 }
 
-/* Add to cart */
 .cart-row .add-to-cart {
     background-color: #133D8E;
     color: #fff;
@@ -768,7 +764,6 @@ input[type=number]::-webkit-outer-spin-button {
     flex-shrink: 0;
 }
 
-/* Icons */
 .cart-row i {
     color: #8C9197;
     font-size: 1rem;
@@ -1104,7 +1099,7 @@ input[type=number]::-webkit-outer-spin-button {
     cursor: pointer;
     font-size: 1rem;
     font-weight: 500;
-    height: 40px;
+    height: 52px;
 }
 
 .cat-details .cart-row .icons {
@@ -2624,4 +2619,15 @@ footer {
         bottom: 1.2rem;
 
     }
+
+    .up {
+        display: none;
+    }
+
+    .photos-featurePdt .loaded-div .label.tag2,
+    .photos-featurePdt .loaded-div .label.tag3 {
+        left: 80%;
+    }
+
+
 }
